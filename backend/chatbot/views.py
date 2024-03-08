@@ -38,7 +38,7 @@ def ingest(request):
     #TODO: 
     # 1. ingest files from source directory(data)
     print("DataPath",os.environ.get('Data_PATH'))
-    utils.ingest(data_path=os.environ.get('Data_PATH'))
+    utils.ingest(data_path='data')
     # 4. response -> status-200, 
     return Response('Ingest completed successfully',status=200)
     pass
@@ -60,7 +60,7 @@ def clear_files(request):
     #/api/clear
     # TODO:
     # 1. shutil.clear /data/db
-    utils.clear_dir(path=os.environ.get('LOCAL_DB_PATH'))
+    utils.clear_dir(path='data/db')
     # 2. reponse -> status-200
     return Response('Files Cleared successfully', status=200)
 
@@ -90,7 +90,7 @@ def generate_response(request):
     # 2. add input to conversation
     conversation.append({'role':'user', 'content':user_question})
     #TODO
-    db_path = os.environ.get('DB_PATH')
+    db_path = 'data/db/porsche.db'
     # 3. Select the model type
     if model_name == 'mistral-7b':
         chain = utils.Mistral_Chain()
