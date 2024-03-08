@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<examResultData>
+<resultData>
+<grp>
+<testCase comment="Init: HVHiL_BEV - J1 / Lademanagement" name="HVHiL_J1__Lademanagement__InitSequence_v3" testCaseId="53e5530e-93fb-4627-bcb2-8b5c2ed7e0b7" valuation="ERROR" valuationComment="">
+<metaData>
+<metaDataItem label="duration" value="00:00:04:55"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1689-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist an: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 98.54120507441031)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist an: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 98.53728358267485)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Auffindbeleuchtung_aus_Ladeklappe_zu_11kW" testCaseId="000435e2 fa8be17f-218e-411f-9cac-3cedd14ccee2" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1689"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Auffindbeleuchtung_aus_Ladeklappe_zu_11kW_2022_09_22_12_27_11.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1611-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist an: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist an: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Auffindbeleuchtung_an_Kl15_an_11kW" testCaseId="000435e2 8b80df48-2d8e-48ee-bf45-765fdcc3b88d" valuation="ERROR" valuationComment="Testautomatisierung muss angepasst werden&#13;&#10;">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1611"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Auffindbeleuchtung_an_Kl15_an_11kW_2022_09_22_12_33_41.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1683-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist an: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist an: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Auffindbeleuchtung_an_FFB_entriegelt_11kW" testCaseId="000435e2 32189ea0-aac4-4a0c-a9ef-44328e6a90d5" valuation="PASS" valuationComment="Manuell getestet i.O. Testimplementierung anpassen: Komfort-CAN muss wachgehalten/aufgeweckt werden, sonst wird nicht auf Setzen des Entriegelungssignals reagiert">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1683"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Auffindbeleuchtung_an_FFB_entriegelt_11kW_2022_09_22_12_40_08.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1684-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist an: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist an: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Auffindbeleuchtung_an_BCM2_ZV_Tasten_HMI_Anf_11kW" testCaseId="000435e2 17213a51-e593-44c0-aa5b-e07eeea93366" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1684"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Auffindbeleuchtung_an_BCM2_ZV_Tasten_HMI_Anf_11kW_2022_09_22_12_46_28.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1670-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0±0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist an: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist noch an nach 118sec: MDL_OBC_LED_Suchbeleuchtung_dc &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus nach 122sec: MDL_OBC_LED_Suchbeleuchtung_dc == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist an: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 2.413678163173271)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Suchbeleuchtung Dose 2 ist noch an nach 118sec: MDL_OBC_LED_Suchbeleuchtung_dc_2 &gt; 0.5 (Ist: 98.5274798533362)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 1 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc == 0 (Ist: 0.0)&#10;PASS:&#9;[PRE]&#9;&#9;Suchbeleuchtung Dose 2 ist aus: MDL_OBC_LED_Suchbeleuchtung_dc_2 == 0 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Auffindbeleuchtung_an_Ladeklappe_auf_11kW" testCaseId="000435e2 d30f9c65-b8ab-4fad-97da-4b42bea3768b" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1670"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Auffindbeleuchtung_an_Ladeklappe_auf_11kW_2022_09_22_12_52_26.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Auffindbeleuchtung_aus_Fahrbereitschaft_11kW" testCaseId="000435e2 506b5c10-c647-417d-ba5a-15f4d62234dd" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1690"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Auffindbeleuchtung_an_Ladestecker_entriegeln_11kW" testCaseId="000435e2 ffd90f02-ff56-43e0-a4b5-7d924eb2ccee" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1685"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1354-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_Schliessen_bei_Timeout_11kW" testCaseId="000435e2 19f1cb57-a249-4648-b460-eee6fce896b5" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1354"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Schliessen_bei_Timeout_11kW_2022_09_27_08_42_48.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1352-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_Schliessen_bei_SteckerZiehen_11kW" testCaseId="000435e2 5833858d-3674-4b93-8ea7-09630691939e" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1352"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Schliessen_bei_SteckerZiehen_11kW_2022_09_22_13_06_21.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1370-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_Schliessen_bei_Sensorbetaetigung_11kW" testCaseId="000435e2 4c845c06-56ab-44e2-8d9f-50ba79cef3cc" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1370"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Schliessen_bei_Sensorbetaetigung_11kW_2022_09_22_13_08_05.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1596-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;ERROR:&#9;[PRE]&#9;&#9;Fahrbereitschaft hergestellt&#10;FAIL:&#9;[RESULT]&#9;LKL1 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 0 (Ist: 100.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: ERROR&#10;Vorbedingungen nicht erfüllt" name="LIN_Ladeklappe_kein_Oeffnen_bei_Fahrbereitschaft_11kW" testCaseId="000435e2 abbf1b2b-da5a-445d-a7c9-e098b7480e95" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1596"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_kein_Oeffnen_bei_Fahrbereitschaft_11kW_2022_09_22_13_11_41.blf.zip"/>
+</testCase>
+<testCase comment="---" name="LIN_Ladeklappe_Schliessen_bei_Fahrt_11kW" testCaseId="000435e2 4944c51a-6c46-450d-a659-d96b217025ce" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1371"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1363-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Klappe 1 ging auf: MDL_OBC_LIN_RX_LKL1_Bewegungsstatus == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Klappe 2 ging auf: MDL_OBC_LIN_RX_LKL2_Bewegungsstatus == 1 (Ist: 1)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_ggue_Signale_ignorieren_bei_EndLagDefekt_11kW" testCaseId="000435e2 a618c7bd-e486-447d-a537-71f321bc8a76" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1363"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_ggue_Signale_ignorieren_bei_EndLagDefekt_11kW_2022_09_27_08_45_20.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1398-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="LIN_Ladeklappe_Kombimeldung_nach_Schliessfehler_11kW" testCaseId="000435e2 ba19bd30-338e-4074-9d87-2164e6ccdc53" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1398"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Kombimeldung_nach_Schliessfehler_11kW_2022_09_22_13_22_46.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1366-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Offen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_oeffnet_erst_wenn_ggue_zu_11kW" testCaseId="000435e2 ec578001-7718-4f1a-90b5-3a1dccccb3c7" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1366"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_oeffnet_erst_wenn_ggue_zu_11kW_2022_09_22_13_24_42.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1374-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[ACT]&#9;&#9;Kessy-Authorisierung LKL1: M_RX_KCAN__Kessy_11__KY_LKL_1_Autorisierung == 1 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 100 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[ACT]&#9;&#9;Kessy-Authorisierung LKL2: M_RX_KCAN__Kessy_11__KY_LKL_2_Autorisierung == 1 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;LKL2 Sollposition Offen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 100 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="LIN_Ladeklappe_oeffnet_erst_nach_BCM2_Autorisierung_11kW" testCaseId="000435e2 e502a34c-1262-4c4d-8cfc-831abd6debef" valuation="PASS" valuationComment="Manuell getestet funktional i.O. aber vertauschte Kessy Autorisierung für Ladeklappe links oder rechts">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1374"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_oeffnet_erst_nach_BCM2_Autorisierung_11kW_2022_09_22_13_26_22.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1372-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 0 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 100 (Ist: 100)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_oeffnet_bei_zwei_Anforderungen_nur_eine_11kW" testCaseId="000435e2 6be7858b-4a6d-4b72-b180-d0bb98918982" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1372"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_oeffnet_bei_zwei_Anforderungen_nur_eine_11kW_2022_09_22_13_27_54.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1369-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Offen: MDL_OBC_LIN_RX_LKL2_Soll_Pos_Merker == 100 (Ist: 100.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_kein_Schliessen_wenn_Stecker_erkannt_11kW" testCaseId="000435e2 381cecc0-801e-4828-a07c-000f85c7b4e5" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1369"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_kein_Schliessen_wenn_Stecker_erkannt_11kW_2022_09_22_13_29_44.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1647-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_kein_Oeffnen_wenn_beide_EndLag_Defekt_11kW" testCaseId="000435e2 3754ee18-75b2-4b06-b158-7f8ea020e0e6" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1647"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_kein_Oeffnen_wenn_beide_EndLag_Defekt_11kW_2022_09_22_13_31_54.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1590-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Button im HMI haendisch vorerst einfacher zu testen.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="LIN_Ladeklappe_Schliessen_bei_Betaetigung_Button_im_HMI_11kW" testCaseId="000435e2 72674f00-c356-4be2-9434-06593025e729" valuation="ERROR" valuationComment="Ladeklappen werden in MIB-Lademenü nicht angezeigt. Klärung mit FB weshalb diese nicht mehr angezeigt werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1590"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1593-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Sollposition Offen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 100 (Ist: 100)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Offen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 100 (Ist: 100)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_Oeffnen_bei_Sensorbetaetigung_11kW" testCaseId="000435e2 13b3edb2-2d0d-4dd6-8470-acff11ed1a50" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1593"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Oeffnen_bei_Sensorbetaetigung_11kW_2022_09_22_13_33_37.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1592-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Button im HMI haendisch vorerst einfacher zu testen.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="LIN_Ladeklappe_Oeffnen_bei_Betaetigung_Button_im_HMI_11kW" testCaseId="000435e2 c3b4b309-cb76-42a9-921a-b747d7831299" valuation="ERROR" valuationComment="Ladeklappen werden in MIB-Lademenü nicht angezeigt. Klärung mit FB weshalb diese nicht mehr angezeigt werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1592"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1353-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;LKL1 Istposition Geschlossen: MDL_OBC_LIN_RX_LKL1_Ist_Pos == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;LKL2 Sollposition Geschlossen: MDL_OBC_LIN_RX_LKL2_Ist_Pos == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="LIN_Ladeklappe_Schliessen_bei_ZVzu_11kW" testCaseId="000435e2 60fcb506-9af4-4cd5-800e-dcca3b06de7b" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1353"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\LIN_Ladeklappe_Schliessen_bei_ZVzu_11kW_2022_09_22_13_35_23.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1588-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;LED blitzt blau: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 9 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Conservation: BAP_Get_BatteryControl__17ChargeState_ChargingState == 1 (Ist: 2.0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Blau blitzen == 9 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;LED blitzt blau: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 9 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Conservation: BAP_Get_BatteryControl__17ChargeState_ChargingState == 1 (Ist: 2.0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Blau blitzen == 9 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Ladevorgang_Pausiert_11kW" testCaseId="000435e2 5be61e80-4f84-4699-8d0b-1ddc6bb21343" valuation="ERROR" valuationComment="Timer konnte nicht gestellt werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1588"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Ladevorgang_Pausiert_11kW_2022_09_22_13_37_41.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1586-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Ladevorgang_Aktiv_11kW" testCaseId="000435e2 ce32ff1d-bb30-44b7-894f-a4de9abb9be7" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1586"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Ladevorgang_Aktiv_11kW_2022_09_22_13_39_42.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1587-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED = gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 3 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED = gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 3 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Ladevorgang_Abgeschlossen_11kW" testCaseId="000435e2 bf1ad820-0e41-49e8-9865-2e6e2556c556" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1587"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Ladevorgang_Abgeschlossen_11kW_2022_09_22_13_44_02.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1585-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Rot == 4 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Fehler_11kW" testCaseId="000435e2 078cc10b-6f91-41cf-9476-a9dd6f7579ba" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1585"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Fehler_11kW_2022_09_22_13_45_55.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1584-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Authentifizierung_11kW" testCaseId="000435e2 92281a40-1ab8-4616-93c1-006c36a70346" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1584"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Authentifizierung_11kW_2022_09_22_13_47_51.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1579-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = irgendeine Farbe war an &gt; 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = irgendeine Farbe war an &gt; 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_KL15_Ein_11kW" testCaseId="000435e2 9b0d24cc-3853-45f4-929e-39a94d692b67" valuation="PASS" valuationComment="Manuell getestet i.O.&#13;&#10;">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1579"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_KL15_Ein_11kW_2022_09_22_13_52_40.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1578-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Rot == 4 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Rot == 4 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Rot == 4 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Rot == 4 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Deaktivierung_Timeout_11kW" testCaseId="000435e2 7f64db38-653a-4c72-95bc-cca0d2be003b" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1578"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Deaktivierung_Timeout_11kW_2022_09_22_14_03_32.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1582-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Aktivierung_ZV_Tasten_HMI_Anf_11kW" testCaseId="000435e2 eebd4eea-4627-453a-a50b-9fdd80ae16cc" valuation="ERROR" valuationComment="Promleme mit Kessy">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1582"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktivierung_ZV_Tasten_HMI_Anf_11kW_2022_09_22_14_07_22.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1589-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Aktivierung_Ladestecker_Erkannt_11kW" testCaseId="000435e2 7b9930ca-d077-4edc-ac5a-8df26d679e6e" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1589"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktivierung_Ladestecker_Erkannt_11kW_2022_09_22_14_09_31.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1580-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = irgendeine Farbe war an &gt; 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = irgendeine Farbe war an &gt; 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Aktivierung_Fahrzeug_Entriegelt_11kW" testCaseId="000435e2 e49f4ba0-afe7-489d-81e6-b8106706ff8a" valuation="ERROR" valuationComment="Promleme mit Kessy">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1580"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktivierung_Fahrzeug_Entriegelt_11kW_2022_09_22_14_14_09.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1581-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;LED pulsiert grün: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Charging: BAP_Get_BatteryControl__17ChargeState_ChargingState == 2 (Ist: 7.0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen == 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = AUS == 0 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;LED pulsiert grün: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Charging: BAP_Get_BatteryControl__17ChargeState_ChargingState == 2 (Ist: 1.0)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Aktivierung_Aenderung_Ladestatus_11kW" testCaseId="000435e2 3bfe5416-87e6-4428-b9b1-a51155869c9b" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1581"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktivierung_Aenderung_Ladestatus_11kW_2022_09_22_14_22_57.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1577-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Gruen blinken == 6 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladestatusanzeige_Aktiver_Ladevorgang_11kW" testCaseId="000435e2 18693b91-da6c-489d-919f-1cf0761118e6" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1577"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktiver_Ladevorgang_11kW_2022_09_22_14_31_43.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1583-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 1: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;ETSA Pruefung der Dose 2: ETSA Zustand LED = Weiß blinken == 1 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladezustand_LED_Stecker_Erkannt_11kW" testCaseId="000435e2 c9885206-eca6-461b-9e2a-ff792595bd58" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1583"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladezustand_LED_Stecker_Erkannt_11kW_2022_09_22_14_33_37.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1198-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[RESULT]&#9;Aufstartzeit &lt; 600ms&#10;--------------------&#10;Gesamtergebnis: PASS" name="Steckerstatus_beim_Aufstarten_11kW" testCaseId="000435e2 d717987b-a192-44e7-a074-86b94e9eaa2c" valuation="PASS" valuationComment="i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1198"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Steckerstatus_beim_Aufstarten_11kW_2022_09_22_14_37_41.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1569-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;PASG triggert Kombimeldung: M_RX_FLEX_ChA__Motor_26__MO_E_Texte == 2 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;Meldung in Kombi angezeigt&#10;PASS:&#9;[RESULT]&#9;Keine Fahrbereitschaft: M_RX_FLEX_ChA__Motor_35__MO_Fahrbereitschaft == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Steckererkennung_ein_wenn_Klappe_geoeffnet_11kW" testCaseId="000435e2 69503676-cb42-4542-885c-9f5c62c90559" valuation="PASS" valuationComment="Manuell getestet i.O. Mit FB klären ob Proximity von 1900 zulässig ist">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1569"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Steckererkennung_ein_wenn_Klappe_geoeffnet_11kW_2022_09_22_14_39_46.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1249-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Kein Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 1 (Ist: 1)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Steckererkennung_aus_wenn_Klappe_geschlossen_11kW" testCaseId="000435e2 99620866-238d-47e1-81d3-6b78f247044f" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1249"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Steckererkennung_aus_wenn_Klappe_geschlossen_11kW_2022_09_22_14_41_16.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1166-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Steckererkennung_anhand_Proxy_11kW" testCaseId="000435e2 67ab9ccf-4bc2-4cab-8648-a25ecb93a60a" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1166"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Steckererkennung_anhand_Proxy_11kW_2022_09_22_14_42_55.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1196-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Kein Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 1 (Ist: 1)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Stecker_nicht_erkannt__Meldung_ueber_CAN_11kW" testCaseId="000435e2 f1b4c39e-c1cd-41a7-8eb5-e3b26242641c" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1196"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Stecker_nicht_erkannt__Meldung_ueber_CAN_11kW_2022_09_22_14_44_25.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1194-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Stecker_erkannt_und_verriegelt_Meldung_ueber_CAN_11kW" testCaseId="000435e2 86a01f28-7b2a-4fe7-9427-83cf8936a8d6" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1194"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Stecker_erkannt_und_verriegelt_Meldung_ueber_CAN_11kW_2022_09_22_14_45_53.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Stecker_erkannt_bei_Fahrt_dann_kein_HMS_11kW" testCaseId="000435e2 1f14d4ca-82f6-43a5-a559-a9dc226cc400" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1228"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Stecker_erkannt_bei_Fahrbereitschaft_im_Stand_11kW" testCaseId="000435e2 c69242de-c6d8-4726-aff1-e94cd05b7e03" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1346"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1192-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status &gt;= 2 (Ist: 2)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Stecker_erkannt__nur_Proxy_Meldung_ueber_CAN_11kW" testCaseId="000435e2 3f65599e-c615-4bf1-9638-3094099996ac" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1192"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Stecker_erkannt__nur_Proxy_Meldung_ueber_CAN_11kW_2022_09_22_14_52_42.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Stecker_erkannt_Anzeige_im_MIB_11kW" testCaseId="000435e2 5ecb03ab-eda5-4a36-9b4a-164b5529a05e" valuation="ERROR" valuationComment="Ladestecker im Hauptmenü nicht erkannt, im Untermenü aber erkannt. Mit FB besprechen">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1573"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1269-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;PASG triggert Kombimeldung: M_RX_FLEX_ChA__Motor_26__MO_E_Texte == 2 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;Meldung in Kombi angezeigt&#10;PASS:&#9;[RESULT]&#9;Keine Fahrbereitschaft: M_RX_FLEX_ChA__Motor_35__MO_Fahrbereitschaft == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Stecker_erkannt_Startversuch_Anzeige_im_Kombi_11kW" testCaseId="000435e2 91d9bebf-ed87-4b67-a23b-9670e01d3ac1" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1269"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Stecker_erkannt_Startversuch_Anzeige_im_Kombi_11kW_2022_09_22_14_54_31.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1225-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;OBC schickt Anforderung HMS: M_RX_HCAN__HVLM_04__HVLM_Anforderung_HMS == 2 (Ist: 2)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Stecker_erkannt_Anforderung_HMS_11kW" testCaseId="000435e2 795c521a-6fb9-4a79-b674-874561c64f24" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1225"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Stecker_erkannt_Anforderung_HMS_11kW_2022_09_22_14_56_04.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1572-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Visuelle Prüfung - manuell vorerst schneller.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Stecker_erkannt_Anzeige_im_Kombi_manuell_11kW" testCaseId="000435e2 e84b5bad-5431-4c10-b80f-36177829d292" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1572"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1244-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;ETSA blinkt weiß: MDL_OBC_LIN_RX_Dose_1 == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;ETSA blinkt weiß: MDL_OBC_LIN_RX_Dose_2 == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladestatusanzeige_Aktivierung_11kW" testCaseId="000435e2 2217dd7b-a82c-42bb-9eda-7104d413f372" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1244"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladestatusanzeige_Aktivierung_11kW_2022_09_22_14_58_03.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1695-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Visuelle Prüfung im MIB Lademenue&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Stecker_erkannt_Anzeige_im_MIB_Animationspruefung_11kW" testCaseId="000435e2 bf30aca9-dead-4b41-8c1c-05c239e0d1e2" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1695"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1242-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[ACT]&#9;&#9;Stecker über ZR entriegeln&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[ACT]&#9;&#9;Stecker über ZR entriegeln&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Entriegelung_durch_ZR_11kW" testCaseId="000435e2 bb13efc8-9081-4a8d-b650-4ff4ebe86be2" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1242"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Entriegelung_durch_ZR_11kW_2022_09_22_15_00_31.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1681-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;ERROR:&#9;[ACT]&#9;&#9;Steckerstatus muss sich &lt; 1200ms geändert haben: MDL_OBC_Steckerverrriegelung_Pulsmerker == 1 (Ist: False)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;ERROR:&#9;[ACT]&#9;&#9;Steckerstatus muss sich &lt; 1200ms geändert haben: MDL_OBC_Steckerverrriegelung_Pulsmerker_2 == 1 (Ist: False)&#10;PASS:&#9;[ACT]&#9;&#9;ETSA1 Entriegelungsanforderung&#10;PASS:&#9;[RESULT]&#9;Stecker 1 wird entriegelt&#10;PASS:&#9;[ACT]&#9;&#9;ETSA2 Entriegelungsanforderung&#10;PASS:&#9;[RESULT]&#9;Stecker 2 wird entriegelt&#10;--------------------&#10;Gesamtergebnis: ERROR&#10;Testdurchführung nicht erfolgreich" name="Entriegelung_durch_Steckertaster_max_Zeit_11kW" testCaseId="000435e2 d6bbdbb7-b956-43aa-ac5a-0d9dfba4e280" valuation="ERROR" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1681"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Entriegelung_durch_Steckertaster_max_Zeit_11kW_2022_09_22_15_02_30.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1657-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;HMI Bedienung - manuell vorerst schneller.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Entriegelung_automatisch_bei_Ladungsende_11kW" testCaseId="000435e2 ec895dda-a140-4c40-804d-4e58a5c3036d" valuation="ERROR" valuationComment="Keine Entriegelung, letztes VR hat es funktioniert. Mit FB analysieren ob es ein Kodierproblem ist">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1657"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1227-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[ACT]&#9;&#9;Stecker 1 Rückleitung Verriegelt&#10;PASS:&#9;[RESULT]&#9;Stecker 1 wird entriegelt&#10;PASS:&#9;[ACT]&#9;&#9;Stecker 2 Rückleitung Verriegelt&#10;PASS:&#9;[RESULT]&#9;Stecker 2 wird entriegelt&#10;--------------------&#10;Gesamtergebnis: PASS" name="Entriegelung_bei_erkannter_Verriegelung_ohne_Stecker_11kW" testCaseId="000435e2 a043e506-ddbc-4a78-8a34-592fd7576059" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1227"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Entriegelung_bei_erkannter_Verriegelung_ohne_Stecker_11kW_2022_09_22_15_04_20.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1224-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;Verriegelung Stecker 1 innerhalb von 1000ms&#10;PASS:&#9;[RESULT]&#9;Verriegelung Stecker 2 innerhalb von 1000ms&#10;--------------------&#10;Gesamtergebnis: PASS" name="Verriegelung_innerhalb_1000ms_11kW" testCaseId="000435e2 64d984b3-03dc-46b6-855c-723496a2e20c" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1224"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Verriegelung_innerhalb_1000ms_11kW_2022_09_22_15_06_12.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1223-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Erkennung_korrekte_Verriegelung_11kW" testCaseId="000435e2 3d223916-114b-4676-91cf-3a4eec495a29" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1223"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Erkennung_korrekte_Verriegelung_11kW_2022_09_22_15_08_01.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1190-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 4.400000000000006)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.400000000000006)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Ladestrom bei Entriegelung Stecker 1: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Ladestrom bei Entriegelung Stecker 2: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Entriegelung_erfolgt_erst_nach_Ladestopp_11kW" testCaseId="000435e2 e986736e-1398-42e6-a8e0-c7c962f0dc34" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1190"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Entriegelung_erfolgt_erst_nach_Ladestopp_11kW_2022_09_22_15_10_00.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1727-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Im Moment nur AC Laden am HV-HiL möglich&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Kombimeldung_bei_DC_Ladeabbruch_Isolationsfehler_11kW" testCaseId="000435e2 a35cd3ce-ac8d-4d0f-a9f5-48c6ade0e2fa" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1727"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Kombimeldung_bei_Defekt_Taster_o_gesamter_ETSA_11kW" testCaseId="000435e2 568c55e7-83a7-43b3-a6ed-f1aabd4c1594" valuation="ERROR" valuationComment="Keine Reaktion auf setzen des Fehlerstatus, mit FB klären">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1747"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1771-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Laden nach Preis/Leistungstabellen am HiL nicht möglich&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Kombimeldung_bei_Fehlermeldung_Mindestladeleistung_11kW" testCaseId="000435e2 6ffd98f7-a70b-47e3-b1c1-8c319caa7f63" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1771"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1741-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 2)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;FAIL:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 2)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Kombimeldung_bei_fehlgeschlagener_Entriegelung_11kW" testCaseId="000435e2 bdaa7b1a-9150-4728-b980-ac5674f410d1" valuation="OPEN" valuationComment="Welche Warnmeldung soll kommen und wie soll exakt vorgegangen werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1741"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Kombimeldung_bei_fehlgeschlagener_Entriegelung_11kW_2022_09_27_08_52_19.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1739-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt, nicht verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 2 (Ist: 2)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Kombimeldung_bei_fehlgeschlagener_Verriegelung_11kW" testCaseId="000435e2 2de975cb-09e9-45ed-9c63-4a7d9fcb7383" valuation="PASS" valuationComment="Manuell getestet, 880, 876, 993, 994 und 1000 kommen">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1739"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Kombimeldung_bei_fehlgeschlagener_Verriegelung_11kW_2022_09_27_08_53_56.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Kombimeldung_bei_Ladeabbruch_Authentifizierungsfehler_11kW" testCaseId="000435e2 1647df7f-db97-434f-bd0d-b328b71db46f" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1765"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1749-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Hardware und SW für Typ1 Märkte benötigt&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Kombimeldung_bei_Ladeabbruch_durch_Latchbetaetigung_CCS1_u_Typ1_Maerkte_11kW" testCaseId="000435e2 ba90477c-5d0c-421f-853e-1c95487b20f0" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1749"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Kombimeldung_bei_Ladeabbruch_Fehler_Kommunik_Aufbau_o_Kommunik_Timeout_11kW" testCaseId="000435e2 a42df6be-9471-4d2b-9b2d-66b8a255b6d9" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1733"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Kombimeldung_bei_Ladeabbruch_Vorladefehler_11kW" testCaseId="000435e2 0dc07b87-7c5e-41d0-ba11-fb31e9253171" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1729"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1775-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Kombimeldung_bei_Ladeklappenbeeintraechtigung_11kW" testCaseId="000435e2 1bdcf440-0b29-4297-8a36-e9fc8471ca49" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1775"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Kombimeldung_bei_Ladeklappenbeeintraechtigung_11kW_2022_09_27_08_56_22.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Kombimeldung_keine_AC_Spann_o_CP_Signal_von_Ladeinf_erkannt_11kW" testCaseId="000435e2 9f0bcce4-0b76-48aa-98ad-c483d9159bd6" valuation="PASS" valuationComment="Manuell getestet i.O. Meldung 998 kommt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1721"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1713-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;Ladevorgang unterbrochen: M_RX_HCAN__LAD_01__LAD_IstStrom_HV == 0 (Ist: 13.200000000000003)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert gruen: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 6 (Ist: 6)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Kombimeldung_Ladeabbruch_Uebertemperatur_11kW" testCaseId="000435e2 e11060a5-dc0a-4e60-8fac-9aab034da755" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1713"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Kombimeldung_Ladeabbruch_Uebertemperatur_11kW_2022_09_27_08_58_12.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Kombimeldung_Ladeabbruch_wenn_Fehler_Ladeinf_nicht_genau_identifizierbar_11kW" testCaseId="000435e2 cb46407f-c41f-46e2-a6ae-5e3fb8720347" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1757"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Kombimeldung_Ladeverhinderer_erkannt_11kW" testCaseId="000435e2 9e1f4c50-a4ff-468c-bf17-7e724fefc7fb" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1763"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Kombimeldung_wenn_Ladeabbruch_von_HVLM_nicht_genau_identifizierbar_11kW" testCaseId="000435e2 9f7fd302-4a94-483f-8473-6ba4ade8ee6d" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1755"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="---" name="MIB_Meldung_bei_DC_Ladeabbruch_Isolationsfehler_11kW" testCaseId="000435e2 4e060d89-2aab-4dc9-a547-6446dd4eec74" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1728"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Defekt_Taster_o_gesamter_ETSA_11kW" testCaseId="000435e2 1948e73b-2e61-4a50-b84c-0f4f054fe502" valuation="ERROR" valuationComment="Keine Reaktion auf setzen des Fehlerstatus, mit FB klären">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1748"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Fehlermeldung_Mindestladeleistung_11kW" testCaseId="000435e2 cfc794b2-a094-4115-90df-08b99157bcbe" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1772"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_fehlgeschlagener_Entriegelung_11kW" testCaseId="000435e2 33fa30e2-b445-4355-bd92-5d73c0145dcf" valuation="OPEN" valuationComment="Welche Warnmeldung soll kommen und wie soll exakt vorgegangen werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1742"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_fehlgeschlagener_Verriegelung_11kW" testCaseId="000435e2 f06280a3-e8ee-42a3-85c5-b08933b1b00e" valuation="PASS" valuationComment="Manuell getestet ">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1740"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Inkompatibilitaeten_11kW" testCaseId="000435e2 e54bde8f-a1cd-46d7-92bd-831ba0dc03d1" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1769"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Ladeabbruch_Authentifizierungsfehler_11kW" testCaseId="000435e2 42357d42-c4ea-44a6-80e7-e07e29d533b4" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1766"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Ladeabbruch_durch_Latchbetaetigung_CCS1_u_Typ1_Maerkte_11kW" testCaseId="000435e2 98cd8bd5-3fc0-4f24-937d-d552dd80aebc" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1750"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Ladeabbruch_Fehler_Kommunik_Aufbau_o_Kommunik_Timout_11kW" testCaseId="000435e2 f67d4cd8-b057-49b6-9939-1434b62c5105" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1734"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_bei_Ladeabbruch_Vorladefehler_11kW" testCaseId="000435e2 de7795d7-cf3e-45a5-bca6-a585b6049f24" valuation="ERROR" valuationComment="Am HV-HiL nicht testbar">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1730"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_keine_AC_Spann_o_CP_Signal_von_Ladeinf_erkannt_11kW" testCaseId="000435e2 d8064b37-ad22-481f-adbf-0f1dec9980ef" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1722"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_Ladeabbruch_Uebertemperatur_11kW" testCaseId="000435e2 363d5f36-a7b6-4d2b-9601-36cfae133a26" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1720"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_Ladeabbruch_wenn_Fehler_Ladeinf_nicht_genau_identifizierbar_11kW" testCaseId="000435e2 59e33d93-0393-4063-8968-e7e8ba972357" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1758"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_Ladeverhinderer_erkannt_11kW" testCaseId="000435e2 b35368d2-63cb-433e-b697-dc89fff9803f" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1764"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="MIB_Meldung_wenn_Ladeabbruch_von_HVLM_nicht_genau_identifizierbar_11kW" testCaseId="000435e2 deb02553-6be7-4b10-8e8c-f88486acc394" valuation="ERROR" valuationComment="Unklar welche Action ausgeführt werden muss, Rückmeldung von FB benötigt">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1756"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+</grp>
+<grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1388-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Keine Zielzeit: BAP_Get_BatteryControl__41ChargeTargetTime_Year == 254 (Ist: 19.0)&#10;PASS:&#9;[RESULT]&#9;Ladebeginn erst nach Ladeplanberechnung&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Laden_ILF_Ablaufverhalten_Darstellung_11kW" testCaseId="000435e2 4a8ba4af-1302-40d5-9467-81733b7b216f" valuation="ERROR" valuationComment="Kodierungsproblem">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1388"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Laden_ILF_Ablaufverhalten_Darstellung_11kW_2022_09_27_15_30_19.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1700-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Prüfung im MIB vornehmen - manuell vorerst schneller.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Komp_modus_Bedienungspruefung_11kW" testCaseId="000435e2 131a4f94-aefa-44ae-a080-18138d7b2342" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1700"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1701-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Prüfung im MIB vornehmen - manuell vorerst schneller.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Komp_modus_Plug_and_Charge_deaktiv_11kW" testCaseId="000435e2 357489af-ce21-4ab3-b646-14ecf636eb17" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1701"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="---" name="Ladeveto_Fahrbereitschaft_11kW" testCaseId="000435e2 a922f2c8-e3a4-436a-b42d-6f1adf7193a5" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1270"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1200-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM soll nicht laden: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeveto_AC_DC_Stecker_nicht_gesteckt_11kW" testCaseId="000435e2 9cd2d07b-f103-4b6d-84d5-5882d5d44dce" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1200"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeveto_AC_DC_Stecker_nicht_gesteckt_11kW_2022_09_27_08_07_28.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1386-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[ACT]&#9;&#9;Keine HVLM Freigabe: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Freigabe für Lader 2 (Audi) wird zurückgenommen: M_RX_HCAN__LAD_05__LAD_Freigabe_LAD2 == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Freigabe für HV-Booster wird zurückgenommen: M_RX_HCAN__HVLM_11__HVLM_HVLB_SollModus in [0, 4] (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Zeit bis Ladestopp &lt; 100ms&#10;PASS:&#9;[RESULT]&#9;Zeit bis Sollmodus LAD2 &lt; 100ms&#10;PASS:&#9;[RESULT]&#9;Zeit bis Sollmodus HVLB &lt; 100ms&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladefreigabe_Sollkommandierung_11kW" testCaseId="000435e2 959dc07e-5d1e-4fd8-a368-73352a77409f" valuation="ERROR" valuationComment="Prüfen ob die Zeitvorgabe tatsächlich überschritten wird">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1386"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladefreigabe_Sollkommandierung_11kW_2022_09_27_15_32_31.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1250-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 4.800000000000011)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeabbruch_wenn_Stecker_nicht_mehr_erkannt_11kW" testCaseId="000435e2 e922ab82-37c7-4873-bb1e-83e09ad498ee" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1250"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_wenn_Stecker_nicht_mehr_erkannt_11kW_2022_09_27_08_10_36.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1379-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeabbruch_bei_Fehler_BMCe_11kW" testCaseId="000435e2 81eaa75d-1537-4cf3-a397-de23abca295e" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1379"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_bei_Fehler_BMCe_11kW_2022_09_27_15_34_49.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1202-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[RESULT]&#9;Anschluss zweier Ladegeräte physikalisch unmöglich&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeveto_zwei_Ladegeraete_gleichzeitig_11kW" testCaseId="000435e2 337fd8e3-b694-45b5-aec1-b7ac05a48e5d" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1202"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1175-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM soll nicht laden: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeveto_wenn_Klappe_rechts_offen_11kW" testCaseId="000435e2 067865c4-c913-46e9-ae28-3250699835f1" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1175"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeveto_wenn_Klappe_rechts_offen_11kW_2022_09_22_16_42_16.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1173-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM soll nicht laden: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeveto_wenn_Klappe_links_offen_11kW" testCaseId="000435e2 a5893a2b-38de-47b1-9c27-e8f924a3a896" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1173"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeveto_wenn_Klappe_links_offen_11kW_2022_09_22_16_43_49.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1265-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM soll nicht laden: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 0 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeveto_Fehler_BMCe_11kW" testCaseId="000435e2 ee24b418-c362-46b6-90d1-e6b30192863a" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1265"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeveto_Fehler_BMCe_11kW_2022_09_22_16_45_21.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1679-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 4.800000000000011)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED = AUS: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 0 (Ist: 4)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladeabbruch_und_Ladeneustartschema_11kW" testCaseId="000435e2 134bd902-2ed7-4ff4-8fed-a183ed44639a" valuation="ERROR" valuationComment="Testautomatisierung muss angepasst werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1679"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_und_Ladeneustartschema_11kW_2022_09_22_16_59_30.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1677-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 4.800000000000011)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED pulsiert weiß: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 1 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM_Zustand_LED = rot: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM_Zustand_LED = AUS: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 0 (Ist: 4)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladeabbruch_und_Ladeneustart_11kW" testCaseId="000435e2 9c7b4eda-b817-43cb-802c-de0d72fdefda" valuation="ERROR" valuationComment="Testautomatisierung muss angepasst werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1677"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_und_Ladeneustart_11kW_2022_09_22_17_14_06.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1693-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 4.800000000000011)&#10;FAIL:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 13.200000000000003)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladeabbruch_bei_CAN_Kabel_unterbrechung_11kW" testCaseId="000435e2 25f39c19-0d28-4fa5-82fc-16ae538d7fb1" valuation="ERROR" valuationComment="Testautomatisierung muss angepasst werden">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1693"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_bei_CAN_Kabel_unterbrechung_11kW_2022_09_22_17_24_01.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1315-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;Auswertung der Datendarstellung ZR nicht automatisiert möglich&#10;OPEN:&#9;[RESULT]&#9;Testfall muss manuell durchgeführt werden&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Datendarstellung_ZR_11kW" testCaseId="000435e2 ef7d768c-95c3-48eb-b650-54aa989b073f" valuation="ERROR" valuationComment="Im MIB werden die Ladedosen nicht mehr angezeigt, mit FB analysieren">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1315"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="Datendarstellung_MOD_11kW" testCaseId="000435e2 f2da0b82-cecf-450c-97dd-2a28a5050565" valuation="INFO" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1314"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1313-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;SoC: BAP_Get_BatteryControl__17ChargeState_CurrentChargeLevel == 55±45 (Ist: 70.0)&#10;PASS:&#9;[RESULT]&#9;Lademodus: BAP_Get_BatteryControl__17ChargeState_ChargingMode == 1 (Ist: 1.0)&#10;PASS:&#9;[RESULT]&#9;Ladestrom: BAP_Get_BatteryControl__17ChargeState_Current &gt; 0.5 (Ist: 13.0)&#10;PASS:&#9;[RESULT]&#9;Ladezustand: BAP_Get_BatteryControl__17ChargeState_ChargingState &gt; 0 (Ist: 2.0)&#10;PASS:&#9;[RESULT]&#9;Ladeleistung: BAP_Get_BatteryControl__46ChargeState2_ChargingPower &lt; 655000 (Ist: 10860.0)&#10;PASS:&#9;[RESULT]&#9;Zielzeit: BAP_Get_BatteryControl__41ChargeTargetTime_Year &lt;= 99 (Ist: 19.0)&#10;PASS:&#9;[RESULT]&#9;Steckerstatus: BAP_Get_BatteryControl__45ChargingSockets_PlugState == 1 (Ist: 1.0)&#10;PASS:&#9;[RESULT]&#9;Verriegelungsstatus: BAP_Get_BatteryControl__45ChargingSockets_LockState != 0 (Ist: 1.0)&#10;PASS:&#9;[RESULT]&#9;BAP_Get_BatteryControl__38ChargeModeSelection_ChargeMode &lt; 6 (Ist: 1.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Datenbereitstellung_BAP_11kW" testCaseId="000435e2 c6b591f4-bc98-460e-a027-bc09716f8001" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1313"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Datenbereitstellung_BAP_11kW_2022_09_22_17_25_55.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1329-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[ACT]&#9;&#9;Steckerstatus wird an Kombi gesendet: BAP_Get_BatteryControl__16Plug_PlugState == 1 (Ist: 1.0)&#10;PASS:&#9;[ACT]&#9;&#9;SoC wird an Kombi gesendet: BAP_Get_BatteryControl__17ChargeState_CurrentChargeLevel &gt; 10 (Ist: 70.0)&#10;FAIL:&#9;[RESULT]&#9;Steckersymbol im Kombi wird angezeigt&#10;FAIL:&#9;[RESULT]&#9;SoC wird im Kombi angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Darstellung_SOC_Steckersymbol_Kombi_11kW" testCaseId="000435e2 c8e08bbb-f5c0-4c81-825d-d61daac570ce" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1329"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Darstellung_SOC_Steckersymbol_Kombi_11kW_2022_09_22_17_27_42.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1243-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Ladegerät AC-Laden: M_RX_HCAN__LAD_01__LAD_IstModus == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;AWC inaktiv: M_RX_HCAN__HVLM_04__HVLM_AWC_Sollmodus &lt; 3 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;HVLB AC-Laden: M_RX_HCAN__HVLM_11__HVLM_HVLB_SollModus == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;AC-Laden: M_RX_HCAN__HVLM_15__HVLM_PlanAnfr_Ladeart == 1 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="angeforderte_Ladeart_AC_11kW" testCaseId="000435e2 f6e8c286-d6dc-44db-ab6d-fe78d15eceb7" valuation="ERROR" valuationComment="Signal ändert sich nicht, mit FB analysieren, ob es ein Fehler ist">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1243"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\angeforderte_Ladeart_AC_11kW_2022_09_22_17_29_28.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1340-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;Ladescreen angefordert: M_RX_HCAN__HVLM_04__HVLM_Anf_Ladescreen == 1 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Triggerung_Ladescreen_und_StatusLED_11kW" testCaseId="000435e2 63ba7175-41ba-44e9-9234-ff41072e0767" valuation="ERROR" valuationComment="Signal ändert sich nicht, mit FB analysieren, ob es ein Fehler ist">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1340"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Triggerung_Ladescreen_und_StatusLED_11kW_2022_09_22_17_31_03.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1251-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;ERROR:&#9;[ACT]&#9;&#9;Diagnosemesswert gültig: History_Counter_AC_Charging_Process &gt; 0.0 (Ist: -1)&#10;ERROR:&#9;[ACT]&#9;&#9;Diagnosemesswert gültig: OBC_TABROW_ChargDuratTotal &gt; 0 (Ist: -1.0)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;ERROR:&#9;[ACT]&#9;&#9;Diagnosemesswert gültig: History_Counter_AC_Charging_Process &gt; 0.0 (Ist: -1)&#10;ERROR:&#9;[ACT]&#9;&#9;Diagnosemesswert gültig: OBC_TABROW_ChargDuratTotal &gt; 0 (Ist: -1.0)&#10;FAIL:&#9;[RESULT]&#9;Zähler inkrementiert: History_Counter_AC_Charging_Process == 0 (Ist: -1)&#10;FAIL:&#9;[RESULT]&#9;Ladedauer erhöht: OBC_TABROW_ChargDuratTotal &gt; -1.0 (Ist: -1.0)&#10;--------------------&#10;Gesamtergebnis: ERROR&#10;Testdurchführung nicht erfolgreich" name="Statistikdaten_per_Diagnosetester_11kW" testCaseId="000435e2 868d591e-294e-4cee-b6e4-8068684e4136" valuation="ERROR" valuationComment="Statistikdaten nicht einlesbar, mit FB analysieren">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1251"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Statistikdaten_per_Diagnosetester_11kW_2022_09_22_17_33_59.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Ladeabbruchspeicherung_BAP_Signal_11kW" testCaseId="000435e2 681d9282-2380-4c03-ac07-56523fbf4f62" valuation="INFO" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1697"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+<testCase comment="---" name="ETSA_x_Fehlerstatus_BAP_Signal_11kW" testCaseId="000435e2 2d6ce7e1-9b67-4e88-b099-cd3fbb560f65" valuation="ERROR" valuationComment="Keine Reaktion auf Änderung des Signals, mit FB analysieren ">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1708"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1301-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;FAIL:&#9;[RESULT]&#9;LED blitzt blau: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 9 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Conservation: BAP_Get_BatteryControl__17ChargeState_ChargingState == 1 (Ist: 2.0)&#10;FAIL:&#9;[RESULT]&#9;Ende des Ladevorgangs bei SOC 80: M_RX_HCAN__BMS_10__BMS_NutzbarerSOC == 80.0±0.2 (Ist: 82.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 13.200000000000003)&#10;FAIL:&#9;[RESULT]&#9;LED dauerhaft grün: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 3 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Completed: BAP_Get_BatteryControl__17ChargeState_ChargingState == 15 (Ist: 2.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladeende_bei_Ziel_SOC_80_11kW" testCaseId="000435e2 3e920989-b310-40c5-9309-d0a2891e9df5" valuation="ERROR" valuationComment="Probleme mit Ladetimer">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1301"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeende_bei_Ziel_SOC_80_11kW_2022_09_22_17_39_25.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1603-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;FAIL:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;FAIL:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 1)&#10;FAIL:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Ladeende_bei_ETSA_Fahrzeug_Innenverriegelt_11kW" testCaseId="000435e2 1fdf3779-a2c4-4cbe-aaaf-e5365b7b7038" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1603"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeende_bei_ETSA_Fahrzeug_Innenverriegelt_11kW_2022_09_22_17_43_11.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1602-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Stecker erkannt und verriegelt: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeende_bei_ETSA_Fahrzeug_Entriegelt_11kW" testCaseId="000435e2 a0d1323f-8882-467f-a0f3-02ab1779f484" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1602"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeende_bei_ETSA_Fahrzeug_Entriegelt_11kW_2022_09_22_17_46_32.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1337-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Ladevorgang unterbrochen: M_RX_HCAN__LAD_01__LAD_IstStrom_HV == 0 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeabbruch_Uebertemperatur_AC_Stecker2_11kW" testCaseId="000435e2 21cd121f-0203-43d9-8317-7cdde9bc47bd" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1337"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_Uebertemperatur_AC_Stecker2_11kW_2022_09_22_17_48_35.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1336-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Ladevorgang unterbrochen: M_RX_HCAN__LAD_01__LAD_IstStrom_HV == 0 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Ladeabbruch_Uebertemperatur_AC_Stecker1_11kW" testCaseId="000435e2 2b724dd1-12bb-439d-ac3d-05dc31bc945b" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1336"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Ladeabbruch_Uebertemperatur_AC_Stecker1_11kW_2022_09_22_17_50_40.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1267-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.400000000000006)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Klemmenwechsel_und_ZV_beenden_Laden_nicht_11kW" testCaseId="000435e2 0a874256-b1ce-43b4-ac82-7ad361f78481" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1267"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Klemmenwechsel_und_ZV_beenden_Laden_nicht_11kW_2022_09_22_17_52_57.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1231-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[ACT]&#9;&#9;Sollmodus Init: M_RX_HCAN__HVK_01__HVK_HVLM_Sollmodus == 7 (Ist: 7)&#10;PASS:&#9;[RESULT]&#9;Ladevorgang unterbrochen: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Ladevorgang wiederaufgenommen: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;--------------------&#10;Gesamtergebnis: PASS" name="HVLM_Sollmodus_temporaer_Initwert_11kW" testCaseId="000435e2 940cac5f-16bd-41f4-9285-1848b6aab5b8" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1231"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\HVLM_Sollmodus_temporaer_Initwert_11kW_2022_09_22_17_54_39.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1274-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;ERROR:&#9;[RESULT]&#9;Manipulation der intern gemessenen Temperatur des OBC am HiL nicht möglich&#10;ERROR:&#9;[RESULT]&#9;Testfall kann nicht durchgeführt werden&#10;--------------------&#10;Gesamtergebnis: ERROR" name="Derating_Uebertemperatur_OBC_intern_11kW" testCaseId="000435e2 d128c74e-21e7-469f-a71c-7fe5ea721775" valuation="ERROR" valuationComment="Manipulation der intern gemessenen Temp des OBC am HiL nicht möglich">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1274"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1158-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[ACT]&#9;&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[RESULT]&#9;Ladestrom nicht vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="CP_Unterbrechung_stoppt_Ladevorgang_11kW" testCaseId="000435e2 8038beb8-94ee-4a4a-a133-8d60483c8a6d" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1158"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\CP_Unterbrechung_stoppt_Ladevorgang_11kW_2022_09_22_17_56_26.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1159-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[ACT]&#9;&#9;Ladestrom vorhanden bei CP 33: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.200000000000003)&#10;PASS:&#9;[ACT]&#9;&#9;Ladestrom vorhanden bei CP 15: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 7.400000000000006)&#10;PASS:&#9;[RESULT]&#9;Ladestrom wird reduziert: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 13.200000000000003 (Ist: 7.400000000000006)&#10;--------------------&#10;Gesamtergebnis: PASS" name="CP_Regelt_maximalen_Ladestrom_11kW" testCaseId="000435e2 146cf033-5deb-47ac-8621-79c9d4eeb4f1" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1159"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\CP_Regelt_maximalen_Ladestrom_11kW_2022_09_22_17_58_08.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1600-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 12.600000000000009)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 36 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 35 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 35 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 35 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 34 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 34 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 33 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 33 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 32 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 32 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 31 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 31 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 31 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 30 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 30 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 29 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 29 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 28 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 28 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 28 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 27 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 26 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 25 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 22 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 21 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 19 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 16 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 14 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 12 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 12 (Ist: 12)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 6 (Ist: 5)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 9 (Ist: 7)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 8 (Ist: 7)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 6 (Ist: 5)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 6 (Ist: 5)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 5 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 7 (Ist: 7)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 8 (Ist: 7)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 6 (Ist: 5)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 7 (Ist: 6)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 6 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 4)&#10;FAIL:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 2 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 2 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 2 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 3 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 4 (Ist: 3)&#10;PASS:&#9;[RESULT]&#9;BMS IST Strom uebersteigt nicht BMS MaxDyn Strom: M_RX_HCAN__BMS_01__BMS_IstStrom_02 &lt;= 1 (Ist: 0)&#10;FAIL:&#9;[RESULT]&#9;LED dauerhaft grün: M_RX_HCAN__HVLM_03__HVLM_Zustand_LED == 3 (Ist: 6)&#10;FAIL:&#9;[RESULT]&#9;BAP ChargingState Completed: BAP_Get_BatteryControl__17ChargeState_ChargingState == 15 (Ist: 2.0)&#10;--------------------&#10;Gesamtergebnis: FAIL" name="BMS_Regelt_maximalen_Ladestrom_11kW" testCaseId="000435e2 0bb32f7d-0de0-4645-b2d5-f1db78a2188b" valuation="ERROR" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1600"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\BMS_Regelt_maximalen_Ladestrom_11kW_2022_09_22_18_49_46.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1377-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;ERROR:&#9;[PRE]&#9;&#9;Fahrbereitschaft hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Nicht Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 != 1 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;BMS Nicht AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus != 4 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Kein Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &lt; 0.5 (Ist: 0.0)&#10;FAIL:&#9;[RESULT]&#9;Meldung in Kombi angezeigt&#10;--------------------&#10;Gesamtergebnis: ERROR&#10;Vorbedingungen nicht erfüllt" name="Meldung_bei_Fahrstufe_einlegen_Kombi_11kW" testCaseId="000435e2 dfea9e5d-331a-4b85-b883-f4ff848be6cd" valuation="PASS" valuationComment="Manuell getestet i.O. Testspec anpassen, Ladevorgang muss nicht abgebrochen werden, wenn versucht wird in D zu schalten">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1377"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Meldung_bei_Fahrstufe_einlegen_Kombi_11kW_2022_09_22_18_57_27.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1318-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;HVLM Laden: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;BMS AC_Laden: M_RX_HCAN__BMS_04__BMS_IstModus == 4 (Ist: 4)&#10;PASS:&#9;[RESULT]&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 3.0)&#10;PASS:&#9;[ACT]&#9;&#9;Ladestrom vorhanden: M_RX_HCAN__LAD_01__LAD_IstStrom_HV &gt; 0.5 (Ist: 13.400000000000006)&#10;PASS:&#9;[RES]&#9;&#9;HVLM hat Ladeleistungsreduzierung durch die Infrastruktur ermittelt: BAP_Get_BatteryControl__46ChargeState2_ChargingPowerReduction == 2 (Ist: 2.0)&#10;FAIL:&#9;[RESULT]&#9;Kombimeldung wird angezeigt&#10;--------------------&#10;Gesamtergebnis: FAIL" name="Meldung_Infra_Ladezeitverlaengerung_Kombi_11kW" testCaseId="000435e2 e31cd418-5c10-4263-a40d-a112981f9781" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1318"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Meldung_Infra_Ladezeitverlaengerung_Kombi_11kW_2022_09_22_19_00_40.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1339-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;NV Batterie gestützt: M_RX_HCAN__NVEM_05__BEM_HYB_DC_uSollLV &gt; 10.6 (Ist: 11.9)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Laden_NV_Batterie_11kW" testCaseId="000435e2 c3317574-9d89-4b2a-a4b4-8b94f6f65306" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1339"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Laden_NV_Batterie_11kW_2022_09_22_19_02_21.blf.zip"/>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1604-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;OPEN:&#9;[RESULT]&#9;HMI Bedienung - manuell vorerst schneller.&#10;--------------------&#10;Gesamtergebnis: OPEN&#10;Manuelle Auswertung nötig" name="Ladeende_bei_entriegelung_MIB_11kW" testCaseId="000435e2 22693058-13e6-4751-b8b4-7b45a95d51d7" valuation="PASS" valuationComment="Manuell getestet i.O.">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1604"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+</testCase>
+</grp>
+<grp>
+<testCase comment="---" name="Keine_abschaltung_des_HV_Systems_waehrend_Fahrt_11kW" testCaseId="000435e2 4f06a739-ff66-49dc-a03a-6bccd00b1259" valuation="ERROR" valuationComment="Probleme mit Auslösen von Interlock">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1663"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+</testCase>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1160-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Signal war nicht auf Init == 7 während des Aufstartvorgangs&#10;--------------------&#10;Gesamtergebnis: PASS" name="Aufstartzeit_HV_Interlock_Signal_11kW" testCaseId="000435e2 9e19fa85-29ab-46b8-a9c2-2367521edb80" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1160"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="productive"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Aufstartzeit_HV_Interlock_Signal_11kW_2022_09_27_08_15_46.blf.zip"/>
+</testCase>
+</grp>
+<grp>
+<testCase comment="DOORS_URL: doors://doors.web.porsche.biz:36678/?version=2&amp;prodID=0&amp;view=00000014&amp;urn=urn:telelogic::1-456c124b03490aa9-O-1652-000226c5&#10;Testbench: HVHiL_BEV&#10;&#10;Ergebnisübersicht&#10;--------------------&#10;PASS:&#9;[PRE]&#9;&#9;HV On hergestellt&#10;PASS:&#9;[RESULT]&#9;Signal wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_03__HVLM_Ladetexte == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_04__HVLM_IstModus_02 &lt; 2 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_04__HVLM_Fehlerstatus == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_04__HVLM_Stecker_Status == 1 (Ist: 1)&#10;PASS:&#9;[RESULT]&#9;Signal wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_04__HVLM_LadeAnforderung == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal LAD IST Modus wird gesendet - OBC Ladebereit: M_RX_HCAN__LAD_01__LAD_IstModus == 0 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal HVLM IstSpannung_HV wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_03__HVLM_IstSpannung_HV &lt;= 850±20 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal LAD IstStrom_HV wird gesendet - OBC Ladebereit: M_RX_HCAN__LAD_01__LAD_IstStrom_HV == 0±0.5 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Signal HVLM_MaxStrom_Netz wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_03__HVLM_MaxStrom_Netz &lt;= 102.1 (Ist: 0.0)&#10;PASS:&#9;[RESULT]&#9;Signal LAD MaxLadLeistung_HV wird gesendet - OBC Ladebereit: M_RX_HCAN__LAD_02__LAD_MaxLadLeistung_HV &lt;= 50900 (Ist: 0)&#10;PASS:&#9;[RESULT]&#9;Signal HVLM MaxLadeLeistung wird gesendet - OBC Ladebereit: M_RX_HCAN__HVLM_06__HVLM_MaxLadeLeistung &lt;= 150000 (Ist: 0)&#10;--------------------&#10;Gesamtergebnis: PASS" name="Pruefung_Bussignale_11kW" testCaseId="000435e2 e262bb43-5405-4287-a004-086eb4f5a864" valuation="PASS" valuationComment="">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1652"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="implemented"/>
+</metaData>
+<attachments description="Link to \\CP158390\Messdateien\CANoe\EXAM\TestTopic_Lademanagement\Pruefung_Bussignale_11kW_2022_09_22_19_11_35.blf.zip"/>
+</testCase>
+<testCase comment="---" name="Pruefung_Antwortzeit_Verlustleistung_11kW" testCaseId="000435e2 4b0dc189-ea50-4fa5-80fd-2e473d5ce2a6" valuation="ERROR" valuationComment="Signal in NIP vorhanden aber noch keine Signaländerung">
+<metaData>
+<metaDataItem label="DOORS_ID" value="LM_1705"/>
+<metaDataItem label="Related_Projects" value="PO_J1PA"/>
+<metaDataItem label="duration" value="--:--:--:--"/>
+<metaDataItem label="testCaseState" value="not yet implemented"/>
+</metaData>
+</testCase>
+</grp>
+</grp>
+</resultData>
+</examResultData>

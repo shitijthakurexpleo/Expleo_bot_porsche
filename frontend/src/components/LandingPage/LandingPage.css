@@ -1,0 +1,30 @@
+.main {
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    margin: auto;
+}
+.App-logo{
+    width: 81px;
+    height: 36px
+}
+.App-logo2{
+    width: 100px;
+    height: 36px
+}
+.main-card{
+    min-height: 90vh;
+    margin-bottom: 10px;
+    display: flex;
+    border: 1px solid black;
+    background: black;
+ 
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin-top: 1%;
+    color: white;
+}
