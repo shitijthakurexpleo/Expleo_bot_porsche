@@ -144,7 +144,7 @@ def ingest(data_path):
             new_dataframe = pattern_to_dataframe(new_df)
             print(new_dataframe)
             #connect sqlite3
-            conn = sqlite3.connect(f"{os.environ.get('DB_PATH')}")
+            conn = sqlite3.connect(f"data/db/porsche.db")
 
             # Transfer data to SQLite database
             new_dataframe.to_sql('db', conn, if_exists='replace', index=False)
