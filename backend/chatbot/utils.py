@@ -94,7 +94,9 @@ def ingest(data_path):
 
     for folder_name in folders['folder_name']:
         source_directory = data_path + '/' + folder_name
+        print("in loader")
         if os.path.exists(source_directory):
+            print("loading documents")
             documents = load_documents(source_directory)
         # Extract data from testCase elements
         for report in documents:

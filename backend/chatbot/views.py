@@ -37,7 +37,7 @@ def ingest(request):
     #/api/ingest
     #TODO: 
     # 1. ingest files from source directory(data)
-    print(os.environ.get('Data_PATH'))
+    print("DataPath",os.environ.get('Data_PATH'))
     utils.ingest(data_path=os.environ.get('Data_PATH'))
     # 4. response -> status-200, 
     return Response('Ingest completed successfully',status=200)
