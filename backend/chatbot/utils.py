@@ -96,6 +96,7 @@ def ingest(data_path):
         source_directory = data_path + '/' + folder_name
         print("in loader")
         print('source_directory', source_directory)
+        print("check condition", os.path.exists(source_directory) )
         if os.path.exists(source_directory):
             print("loading documents")
             documents = load_documents(source_directory)
