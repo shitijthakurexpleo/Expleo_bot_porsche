@@ -59,7 +59,7 @@ def clear_files(request):
     #/api/clear
     # TODO:
     # 1. shutil.clear /data/db
-    utils.clear_dir(path='data/database')
+    utils.clear_dir(path='data/database/porsche.db')
     # 2. reponse -> status-200
     return Response('Files Cleared successfully', status=200)
 
