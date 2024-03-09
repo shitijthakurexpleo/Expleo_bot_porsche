@@ -172,7 +172,7 @@ def Mistral_Chain():
     </s>
     Answer: """
     )
-    model_path = (r"models\mistral-7b-instruct-v0.2.Q5_0.gguf")
+    model_path = (r"models/mistral-7b-instruct-v0.2.Q5_0.gguf")
     callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
     llm = LlamaCpp(
             model_path=model_path,
@@ -201,7 +201,7 @@ def Mistral_Chain():
     return chain
 
 def Mistral_Chain_Instruct():
-    model_path = (r"models\mistral-7b-instruct-v0.2.Q5_0.gguf")
+    model_path = (r"models/mistral-7b-instruct-v0.2.Q5_0.gguf")
     callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
     llm = LlamaCpp(
             model_path=model_path,
