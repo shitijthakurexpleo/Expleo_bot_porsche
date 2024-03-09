@@ -19,7 +19,7 @@ const promptTexts = {
 };
 
 const apis = {
-  baseUrl: "http://20.13.33.106:8000/api/",
+  baseUrl: "http://20.13.33.106/api/",
   ingest: "ingest",
   clearFiles: "clear_files",
   clearChat: "clear_chat",
