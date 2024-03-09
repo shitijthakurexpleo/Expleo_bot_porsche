@@ -58,8 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS=[
-    'http://20.13.33.106',
-    "*"
+    '20.13.33.106',
 ]
 ROOT_URLCONF = 'expleo_bot.urls'
 
