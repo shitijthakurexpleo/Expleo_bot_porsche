@@ -156,7 +156,7 @@ def ingest(data_path):
 def Mistral_Chain():
     
     answer_prompt = PromptTemplate.from_template(
-        """<s>[INST]Given a user question and the result. You are a bot suppose to answer the question using the result given.
+        """<s>[INST]Given a user question and the result. You are a bot suppose to answer the question using the result given. Answer the question in the same language as asked in.
 
     Question: {question}
     Result: {result}
