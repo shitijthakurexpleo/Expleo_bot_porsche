@@ -19,6 +19,7 @@ from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain_community.llms.llamacpp import LlamaCpp
 from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
+import os
 
 def XML_Reader(file_path):
     # Parse XML data
@@ -47,6 +48,7 @@ def clear_dir(path):
         shutil.rmtree(path)
         print(f"Removed directory at {path}")
     except OSError as error:
+        os.remove(path)
         print(f"Error Occurred: {path} : {error.strerror}")
 
 def pattern_to_dataframe (dataframe):
