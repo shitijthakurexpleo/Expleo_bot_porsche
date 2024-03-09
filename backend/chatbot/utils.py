@@ -187,7 +187,7 @@ def Mistral_Chain():
     )
     print("LLM Loaded")
     # connect DB
-    db = SQLDatabase.from_uri(f"sqlite:///{os.environ.get('DB_PATH')}")
+    db = SQLDatabase.from_uri(f"sqlite:///data/db/porsche.db")
     execute_query = QuerySQLDataBaseTool(db=db)
     write_query = create_sql_query_chain(llm, db=db)
     answer = answer_prompt | llm | StrOutputParser()
@@ -216,7 +216,7 @@ def Mistral_Chain_Instruct():
     )
     print("LLM Loaded")
     # Connect DB
-    db = SQLDatabase.from_uri(f"sqlite:///{os.environ.get('DB_PATH')}")
+    db = SQLDatabase.from_uri(f"sqlite:///data/db/porsche.db")
 
     sql_chain = create_sql_query_chain(llm, db=db)
     
