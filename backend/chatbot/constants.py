@@ -1,3 +1,3 @@
 folders = {"folder_name": ["LM_VR04.2_11kW_OBC"]}
 models = {"models": ["mistral-7b","mistral-7b-instruct"]}
-prompts =[{'title': 'How many are valuated as Failed', 'prompt':'What is the count where output is Fail?'},{'title': 'How many are failed in testcase automation, but passed manually?', 'prompt':'How many have total as Fail but manually tested?'},{'title': 'What are the comments for Fail valuated testcases?', 'prompt':'What are the different comments for output is Fail testcases?'}]
+prompts =[{'title': 'How many are valuated as Failed', 'prompt':'What is the count of output is failed testcases?'},{'title': 'How many are failed in testcase automation, but passed manually?', 'prompt':'How many have total as Fail but manually tested?'},{'title': 'What are the comments for Fail valuated testcases?', 'prompt':'What are the different comments for output is Fail testcases?'}]
